@@ -1,9 +1,0 @@
- Êþº¾   > 
-       java/lang/Object <init> ()V	  	  
- 
-  java/lang/System out Ljava/io/PrintStream;  Welcome to Java
-       java/io/PrintStream  println (Ljava/lang/String;)V   A Code LineNumberTable main ([Ljava/lang/String;)V 
-SourceFile 
-first.java                       *· ±            	       %     	²  
-¶ ±       
-             
