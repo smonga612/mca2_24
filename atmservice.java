@@ -1,9 +1,11 @@
 class accountservice implements Runnable
 {
 static int bal_amt=1000;
-synchronized void getMoney(String name)
+void getMoney(String name)
 {
 System.out.println("Login by "+name);
+synchronized(this)
+{
 if(bal_amt==1000)
 {
 System.out.println("Transaction done by "+name);
@@ -14,7 +16,7 @@ else
 {
 System.out.println("Insufficent Balance");
 }
-
+}
 }
 
 public void run()
