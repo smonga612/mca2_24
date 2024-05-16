@@ -1,0 +1,1 @@
+Standard output to out file
